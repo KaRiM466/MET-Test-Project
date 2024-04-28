@@ -1,0 +1,928 @@
+.carousel {
+    .carousel-inner {
+        .carousel-item {
+            .img {
+                height: 600px;
+            }
+        }
+    }
+}
+
+
+/*--------slider-----------*/
+
+.container {
+    .header-services {
+        text-align: center;
+        color: $main-color;
+        margin: 5% 0 5% 0;
+        font-size: 2.2em;
+        font-weight: 800;
+        transition: 0.7s ease;
+    }
+    .header-services:hover {
+        transform: scale(1.1);
+        color: $main-hover;
+    }
+    .all-card .card {
+        box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+        background-color: $text-color;
+        width: 21.1em;
+        border-radius: 15px;
+        text-align: center;
+        padding: 1em 2em 0 2em;
+        margin: 1.7%;
+        transition: 0.7s ease;
+        .icon-card {
+            font-size: 8em;
+            color: $head-color;
+            margin-bottom: 5%;
+            transition: 0.7s ease;
+        }
+        .icon-card:hover {
+            color: $services-hover;
+            transform: scale(1.1);
+        }
+        a {
+            text-decoration: none;
+            .h3-card {
+                color: $head-color;
+                font-size: 1.8em;
+                font-weight: 700;
+                margin: 10px;
+                transition: 1s ease;
+            }
+            .h3-card:hover {
+                color: $services-hover;
+                transform: scale(1.3);
+            }
+        }
+        .p-card {
+            color: $head-color;
+            transition: 0.7s ease;
+        }
+        .p-card:hover {
+            color: $services-hover;
+            transform: scale(1.1);
+        }
+    }
+    .all-card div:hover {
+        transform: scale(1.1);
+        color: $services-hover;
+        background-color: $main-color;
+    }
+}
+
+
+/*------------------Services-------------------*/
+
+.container {
+    .met-message {
+        margin: 3em 0 3em 0;
+        .row {
+            .respon-mob {
+                .met-img {
+                    .image {
+                        height: 550px;
+                    }
+                }
+            }
+            .word-met {
+                padding-left: 2em;
+                margin-top: 2em;
+                .met-link {
+                    text-decoration: none;
+                    .met-head {
+                        font-size: bolder;
+                        font-weight: 900;
+                        text-align: center;
+                        color: $head-color;
+                        position: relative;
+                        transition: 0.7s ease;
+                    }
+                    .met-head:hover {
+                        transform: scale(1.1);
+                        color: $main-color;
+                    }
+                    .met-head::after {
+                        content: "";
+                        width: 300px;
+                        height: 3px;
+                        background-color: $main-color;
+                        position: absolute;
+                        bottom: -10px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+                .part-one {
+                    padding: 2em 0 2em 0;
+                    .met-caption {
+                        font-size: bold;
+                        font-weight: 900;
+                        margin-bottom: 1em;
+                        color: $head-color;
+                        position: relative;
+                    }
+                    .met-caption::after {
+                        content: "";
+                        width: 120px;
+                        height: 3px;
+                        background-color: $main-color;
+                        position: absolute;
+                        bottom: -10px;
+                        left: 0;
+                    }
+                    .met-text {
+                        color: $main-color;
+                        transition: 0.7s ease;
+                    }
+                    .met-text:hover {
+                        transform: scale(1.1);
+                        color: $services-hover;
+                    }
+                }
+                .part-tow {
+                    .met-caption {
+                        font-size: bold;
+                        font-weight: 900;
+                        margin-bottom: 1em;
+                        color: $head-color;
+                        position: relative;
+                    }
+                    .met-caption::after {
+                        content: "";
+                        width: 120px;
+                        height: 3px;
+                        background-color: $main-color;
+                        position: absolute;
+                        bottom: -10px;
+                        left: 0;
+                    }
+                    .met-text {
+                        color: $main-color;
+                        transition: 0.7s ease;
+                    }
+                    .met-text:hover {
+                        transform: scale(1.1);
+                        color: $services-hover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*------------End Section Message------*/
+
+.info {
+    margin-top: 5em;
+    background: {
+        image: url(https://metmans.edu.eg/siteAssets/images/about/intro.jpg);
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+    }
+    .container {
+        padding: 2em 0 2em 0;
+        .all-cards .card {
+            box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+            background-color: $background-color-card;
+            width: 16em;
+            border-radius: 15px;
+            text-align: center;
+            padding: 1em 2em 0 2em;
+            margin: 1%;
+            transition: 0.7s ease;
+            a {
+                text-decoration: none;
+                color: $head-color;
+            }
+            a:hover {
+                color: $services-hover;
+            }
+            .icon-card {
+                font-size: 6em;
+                color: $head-color;
+                margin-bottom: 5%;
+                transition: 0.7s ease;
+            }
+            .icon-card:hover {
+                color: $services-hover;
+                transform: scale(1.1);
+            }
+            .h3-card {
+                color: $head-color;
+                font-size: 1.8em;
+                font-weight: 700;
+                margin: 10px;
+                transition: 1s ease;
+            }
+            .h3-card:hover {
+                color: $services-hover;
+                transform: scale(1.3);
+            }
+            .p-card {
+                transition: 0.7s ease;
+            }
+            .p-card:hover {
+                transform: scale(1.1);
+            }
+        }
+        .all-cards div:hover {
+            transform: scale(1.1);
+            color: $services-hover;
+            background-color: $main-color;
+        }
+    }
+}
+
+
+/*----------------------------------------------------------------*/
+
+.section-slid-card {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    .slide-container {
+        max-width: 1150px;
+        width: 100%;
+        padding: 2.5em 0;
+        .text-head {
+            .header-services {
+                text-align: center;
+                color: $main-color;
+                margin: 5% 0 5% 0;
+                font-size: 2.2em;
+                font-weight: 800;
+                transition: 0.7s ease;
+            }
+            .header-services:hover {
+                transform: scale(1.1);
+                color: $head-color;
+            }
+        }
+        .slide-content {
+            margin: 0 2.5em;
+            overflow: hidden;
+            border-radius: 1.5em;
+            @media screen and (max-width: 768) {
+                .slide-content {
+                    margin: 0 10px;
+                }
+            }
+            .card-wrapper {
+                .card {
+                    border-radius: 1.5em;
+                    background-color: $background-color-card;
+                    .image-content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        row-gap: 5px;
+                        padding: 1.5em 0;
+                        .overlay {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-color: $main-color;
+                            border-radius: 1.5em 1.5em 0 1.5em;
+                        }
+                        .overlay::before,
+                        .overlay::after {
+                            content: ' ';
+                            position: absolute;
+                            right: 0;
+                            bottom: -2.5em;
+                            height: 2.5em;
+                            width: 2.5em;
+                            background-color: $main-color;
+                        }
+                        .overlay::after {
+                            border-radius: 0 1.5em 0 0;
+                            background-color: $background-color-card;
+                        }
+                        .card-image {
+                            position: relative;
+                            height: 12.5em;
+                            width: 15.62em;
+                            background: #fff;
+                            padding: 3px;
+                            .card-img {
+                                height: 100%;
+                                width: 100%;
+                                object-fit: cover;
+                                border: 4px solid $main-color;
+                            }
+                        }
+                    }
+                    .card-content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0.8em 1em;
+                        .name {
+                            font-size: 2em;
+                            font-weight: 800;
+                            color: $head-color;
+                        }
+                        .description {
+                            font-size: 1em;
+                            color: $head-color;
+                            text-align: center;
+                        }
+                        .button {
+                            border: none;
+                            font-size: 1em;
+                            color: $text-color;
+                            padding: 0.5em 1em;
+                            background-color: $main-color;
+                            border-radius: 6px;
+                            margin: 1em;
+                            cursor: pointer;
+                            transition: all 0.7s ease;
+                        }
+                        .button:hover {
+                            background: $main-hover;
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+        .swiper-navBtn {
+            color: $main-color;
+            transition: all 0.7s ease;
+        }
+        @media screen and (max-width: 768) {
+            .swiper-navBtn {
+                display: none;
+            }
+        }
+        .swiper-navBtn:hover {
+            color: $main-hover;
+        }
+        .swiper-navBtn::before,
+        .swiper-navBtn::after {
+            font-size: 2.5em;
+        }
+        .swiper-button-next {
+            right: 0;
+        }
+        .swiper-button-prev {
+            right: 0;
+        }
+        .swiper-pagination {
+            .swiper-pagination-bullet-active {
+                background-color: $main-color;
+            }
+        }
+    }
+}
+
+
+/*---------------------------end-------------------*/
+
+.section-count {
+    background: {
+        image: url(https://metmans.edu.eg/siteAssets/images/about/intro.jpg);
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+    }
+    .bg-opacity {
+        background-color: $main-color;
+        opacity: .9;
+        .container {
+            padding-top: 1em;
+            .counting {
+                padding: 2.5em 0;
+                margin: 5em;
+                border-radius: 10px;
+                .inner-width {
+                    max-width: 1200px;
+                    .row {
+                        text-align: center;
+                        color: #fff;
+                        .content-counter {
+                            i {
+                                font-size: 5em;
+                                color: $head-color;
+                                margin-bottom: .3em;
+                            }
+                            .num {
+                                font-size: 3em;
+                                font-weight: 600;
+                                margin-bottom: .3em;
+                            }
+                            p {
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*----------------------end counter------------*/
+
+.section-slid-card {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    .slide-container {
+        max-width: 1150px;
+        width: 100%;
+        padding: 2.5em 0;
+        .text-head {
+            .header-services {
+                text-align: center;
+                color: $main-color;
+                margin: 5% 0 5% 0;
+                font-size: 2.2em;
+                font-weight: 800;
+                transition: 0.7s ease;
+            }
+            .header-services:hover {
+                transform: scale(1.1);
+                color: $head-color;
+            }
+        }
+        .slide-content {
+            margin: 0 2.5em;
+            overflow: hidden;
+            border-radius: 1.5em;
+            @media screen and (max-width: 768) {
+                .slide-content {
+                    margin: 0 10px;
+                }
+            }
+            .card-wrapper {
+                .card {
+                    border-radius: 1.5em;
+                    background-color: $background-color-card;
+                    .image-content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        row-gap: 5px;
+                        padding: 1.5em 0;
+                        .overlay {
+                            position: absolute;
+                            left: 0;
+                            top: 0;
+                            height: 100%;
+                            width: 100%;
+                            background-color: $main-color;
+                            border-radius: 1.5em 1.5em 0 1.5em;
+                        }
+                        .overlay::before,
+                        .overlay::after {
+                            content: ' ';
+                            position: absolute;
+                            right: 0;
+                            bottom: -2.5em;
+                            height: 2.5em;
+                            width: 2.5em;
+                            background-color: $main-color;
+                        }
+                        .overlay::after {
+                            border-radius: 0 1.5em 0 0;
+                            background-color: $background-color-card;
+                        }
+                        .card-image-info {
+                            position: relative;
+                            height: 11em;
+                            width: 11em;
+                            border-radius: 50%;
+                            background: #fff;
+                            padding: 3px;
+                            .card-img-info {
+                                height: 100%;
+                                width: 100%;
+                                border-radius: 50%;
+                                object-fit: cover;
+                                border: 4px solid $main-color;
+                            }
+                        }
+                    }
+                    .card-content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 0.8em 1em;
+                        .name {
+                            font-size: 2em;
+                            font-weight: 800;
+                            color: $head-color;
+                        }
+                        .description {
+                            font-size: 1em;
+                            color: $head-color;
+                            text-align: center;
+                        }
+                        .button {
+                            border: none;
+                            font-size: 1em;
+                            color: $text-color;
+                            padding: 0.5em 1em;
+                            background-color: $main-color;
+                            border-radius: 6px;
+                            margin: 1em;
+                            cursor: pointer;
+                            transition: all 0.7s ease;
+                        }
+                        .button:hover {
+                            background: $main-hover;
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+        .swiper-navBtn {
+            color: $main-color;
+            transition: all 0.7s ease;
+        }
+        @media screen and (max-width: 768) {
+            .swiper-navBtn {
+                display: none;
+            }
+        }
+        .swiper-navBtn:hover {
+            color: $main-hover;
+        }
+        .swiper-navBtn::before,
+        .swiper-navBtn::after {
+            font-size: 2.5em;
+        }
+        .swiper-button-next {
+            right: 0;
+        }
+        .swiper-button-prev {
+            right: 0;
+        }
+        .swiper-pagination {
+            .swiper-pagination-bullet-active {
+                background-color: $main-color;
+            }
+        }
+    }
+}
+
+
+/*----------------info----------*/
+
+.contact-section {
+    padding: 5em 2em 5em 2em;
+    background: {
+        image: url(https://metmans.edu.eg/siteAssets/images/about/intro.jpg);
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+    }
+    position: relative;
+    .container {
+        background: $opacity-background;
+        padding: 1em 0 1em 0;
+        border-radius: 1em;
+        z-index: 0;
+        .caption-us {
+            font-size: 2em;
+            text-align: center;
+            color: $text-color;
+            font-weight: 900;
+            padding: 0.5em 0;
+        }
+        .contact-us {
+            .text-name {
+                .input-name {
+                    width: 93%;
+                    height: 3em;
+                    margin: 1em 3em 1em 3em;
+                    border-radius: .5em;
+                }
+                .input-name::placeholder {
+                    font-size: 1em;
+                    padding-left: .5em;
+                }
+            }
+            .row {
+                .input-us {
+                    input {
+                        width: 86%;
+                        height: 3em;
+                        margin: 1em 3em 1em 3em;
+                        border-radius: .5em;
+                    }
+                    input::placeholder {
+                        font-size: 1em;
+                        padding-left: .5em;
+                    }
+                    .form-list {
+                        select {
+                            width: 86%;
+                            height: 3em;
+                            margin: 1em 3em 1em 3em;
+                            border-radius: .5em;
+                        }
+                    }
+                }
+            }
+            .text-area {
+                textarea {
+                    width: 93%;
+                    height: 15em;
+                    margin: 1em 3em 1em 3em;
+                    border-radius: .5em;
+                }
+                textarea::placeholder {
+                    font-size: 1em;
+                    padding-left: .5em;
+                }
+            }
+            .form-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .btn {
+                    border: none;
+                    font-size: 1.3em;
+                    font-weight: 600;
+                    color: $main-color;
+                    padding: 0.6em 2.5em;
+                    background-color: $head-color;
+                    border-radius: .5em;
+                    margin: 1em;
+                    transition: all 0.7s ease;
+                }
+                .btn:hover {
+                    background: rgb(136, 88, 0);
+                    color: $text-color;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    /*.overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }*/
+}
+
+
+/*----------------End Contact Us-----------------*/
+
+.mapouter {
+    margin: 3em 0 3em 0;
+    .gmap_canvas {
+        iframe {
+            width: 100%;
+            height: 30em;
+        }
+    }
+}
+
+
+/*--------------------End Map------------------------------*/
+
+@media #{$maxMobile} {
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
+                .img {
+                    height: 400px;
+                }
+            }
+        }
+    }
+    /*---------------End slider---------------*/
+    .container {
+        .all-card .card {
+            position: relative;
+            left: 16%;
+            margin-bottom: 6%;
+        }
+    }
+    /*---------------End Services----------*/
+    .container {
+        .met-message {
+            .row {
+                .respon-mob {
+                    .met-img {
+                        .image {
+                            width: 500px;
+                            height: 500px;
+                            position: relative;
+                            left: 2%;
+                        }
+                    }
+                }
+                .word-met {
+                    .part-one {
+                        .met-caption {
+                            position: relative;
+                            text-align: center;
+                        }
+                        .met-caption::after {
+                            content: "";
+                            position: absolute;
+                            left: 38%;
+                        }
+                        .met-text {
+                            text-align: center;
+                        }
+                    }
+                    .part-tow {
+                        .met-caption {
+                            position: relative;
+                            text-align: center;
+                        }
+                        .met-caption::after {
+                            content: "";
+                            position: absolute;
+                            left: 38%;
+                        }
+                        .met-text {
+                            text-align: center;
+                        }
+                    }
+                }
+                .met-image {
+                    .met-img {
+                        .image {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*--------------end word------------*/
+    .info {
+        .container {
+            .all-cards .card {
+                margin: 2%;
+            }
+        }
+    }
+    /*----------------end student service----*/
+    .contact-section {
+        .container {
+            .contact-us {
+                .text-name {
+                    .input-name {
+                        width: 86%;
+                    }
+                }
+                .text-area {
+                    textarea {
+                        width: 86%;
+                    }
+                }
+            }
+        }
+    }
+    /*-------------End Contact us--------*/
+}
+
+@media screen and (max-width: 400px) {
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
+                .img {
+                    height: 250px;
+                }
+            }
+        }
+    }
+    /*---------------End slider---------------*/
+    .container {
+        .header-services {
+            font-size: 1.5em;
+        }
+        .all-card .card {
+            position: relative;
+            width: 15em;
+            .icon-card {
+                font-size: 5em;
+            }
+            a {
+                .h3-card {
+                    font-size: 1.5em;
+                }
+            }
+            .p-card {
+                font-size: .8em;
+            }
+        }
+    }
+    /*---------------End Services----------*/
+    .container {
+        .met-message {
+            .row {
+                .respon-mob {
+                    .met-img {
+                        .image {
+                            width: 335px;
+                            height: 200px;
+                            position: relative;
+                            left: 2%;
+                        }
+                    }
+                }
+                .word-met {
+                    .met-link {
+                        .met-head {
+                            font-size: 1em;
+                        }
+                    }
+                    .part-one,
+                    .part-tow {
+                        padding: .8em;
+                        .met-caption {
+                            font-size: 1em;
+                        }
+                        .met-caption::after {
+                            content: "";
+                            left: 31%;
+                        }
+                        .met-text {
+                            font-size: .8em;
+                        }
+                    }
+                }
+                .met-image {
+                    .met-img {
+                        .image {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*--------------end word------------*/
+    .info {
+        .container {
+            .all-cards .card {
+                position: relative;
+                left: 22%;
+                width: 12.5em;
+                a {
+                    .icon-card {
+                        font-size: 5em;
+                    }
+                }
+                .h3-card {
+                    font-size: 1em;
+                }
+                .p-card {
+                    font-size: .8em;
+                }
+            }
+        }
+    }
+    /*----------------end student service----*/
+    .contact-section {
+        .container {
+            .contact-us {
+                .text-name {
+                    .input-name {
+                        width: 70%;
+                    }
+                }
+                .row {
+                    .input-us {
+                        input {
+                            width: 70%;
+                        }
+                    }
+                }
+                .row {
+                    .input-us {
+                        .form-list {
+                            width: 80%;
+                        }
+                    }
+                }
+                .text-area {
+                    textarea {
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}

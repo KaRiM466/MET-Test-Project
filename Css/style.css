@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(15, 15, 117);
+}
+
+.navbar-brand {
+    margin-left: 100px;
+}
+
+.navbar-nav {
+    position: absolute;
+    right: 100px;
+}
+
+section {
+    margin-top: 200px;
+    color: wheat;
+}
+
+section .container .row .col-7 h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section .container .row .col-7 p {
+    color: rgb(117, 110, 110);
+}
+
+section .container .row .col-7 .btn {
+    color: white;
+    background-color: rgb(113, 113, 211);
+    padding: 15px 50px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-top: 50px;
+    transition: all 1.7s ease;
+}
+
+section .container .row .col-7 .btn:hover {
+    background-color: white;
+    color: black;
+}
+
+section .container .row .col-5 img {
+    width: 500px;
+    height: 400px;
+}

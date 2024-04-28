@@ -1,0 +1,28 @@
+@mixin background ($folder:Images, $img:intro, $type:jpg, $repeat: no-repeat, $x:0, $y:0) {
+    background-image: url(../../../#{$folder}/#{$img}.#{$type});
+    background-repeat: #{$repeat};
+    background-position: #{$x}px #{$y}px;
+}
+
+
+/*--------------------------*/
+
+@mixin prefixer ($property, $value, $prefixes:()) {
+    @each $prefix in prefixer {
+        #{"_" + $prefix + "_" + $prefixes}: $value;
+    }
+    #{$property}:$value;
+}
+
+
+/*---------------*/
+
+@mixin line {
+    content: " ";
+    position: absolute;
+    top: 1.8em;
+    left: 0;
+    height: 3px;
+    width: 10em;
+    background-color: $gray-color;
+}

@@ -1,0 +1,10 @@
+@import 'Sass/Helpers/variables';
+@import 'Sass/Helpers/mixins';
+@import 'Sass/Layout/header';
+@import 'Sass/Pages/HomePage';
+@import 'Sass/Components/buttons';
+@import 'Sass/Layout/footer';
+@import 'Sass/Layout/grid';
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
